@@ -1,2 +1,23 @@
 @import '/css/fonts.css';
 @import '/css/bootstrap.min.css';
+footer a {
+    color: #6c757d!important;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #62774f!important;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-list li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
