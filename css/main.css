@@ -1,5 +1,4 @@
 @import '/css/fonts.css';
-@import '/css/bootstrap.min.css';
 footer a {
     color: #6c757d!important;
     transition: 0.3s;
@@ -20,4 +19,12 @@ footer a:hover {
     margin-right: 10px;
     margin-bottom: 10px;
     font-size: 1.5em;
+}
+
+#themebutton {
+    color: white;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    height: 50%;
 }

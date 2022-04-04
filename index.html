@@ -44,6 +44,9 @@
 
         gtag('config', 'G-VTVBL6NGZY');
     </script>
+
+    <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/styles/default.min.css">-->
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/highlight.min.js"></script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -59,11 +62,37 @@
                 </div>
             </div>
         </div>
+        <div class="nav navbar-nav ms-auto">
+            <h3><button class="btn" id="themebutton"></button></h3>
+        </div>
     </nav>
 
     <div class="container">
         <h1>NikiTricky's Website</h1>
         <p>Hello world! Check out my projects, webdev skills and other stuff.</p>
+
+        <pre><code class="language-python">@bot.command(name='translate', description="Translate some text to another language", usage="translate <language_from> <language_to> <text>")
+            async def translate(ctx, language_from, language_to, *, text):
+                if language_from not in languages.keys():
+                    await ctx.send(f"Language {language_from} not found")
+                elif language_to not in languages.keys():
+                    await ctx.send(f"Language {language_to} not found")
+                
+                language_from = languages[language_from]
+                language_to = languages[language_to]
+            
+                try:
+                    resp = ut.api.APIRequest("https://translate.googleapis.com/translate_a/single", params={"client": "gtx", "sl": language_from, "tl": language_to, "dt": "t", "q": text})
+                except:
+                    await ctx.send("An error occurred", "An error occurred. Please try again later.")
+                
+                translated_text = ""
+                
+                for sentence in resp[0]:
+                    translated_text += sentence[0]
+                
+                embed = ut.embeds.SendEmbed(ctx, "Translated text", translated_text)
+                await ctx.send(embed=embed)</code></pre>
     </div>
 
     <footer class="mt-auto text-muted">
@@ -78,13 +107,17 @@
                 </ul>
             </div>
             <div class="row justify-content-center">
-                <p>&copy; NikiTricky 2020</p>
+                <p>&copy; NikiTricky 2022</p>
             </div>
         </div>
     </footer>
 
+    <script src="/js/darklight-theme.js"></script>
     <script src="https://kit.fontawesome.com/2266e1cdb8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 
 </html>
