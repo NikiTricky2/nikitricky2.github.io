@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="title" content="NikiTricky's Website | Home">
+    <meta name="title" content="NikiTricky's Website | Project Demo">
     <meta name="description" content="Hello! I'm NikiTricky. I like AI and coding. See my projects and other stuff here.">
     <meta name="keywords" content="nikitricky, coding, ai, artificial intelligence, machine learning, py, python, nodejs, css, html, js">
     <meta name="robots" content="index, follow">
@@ -28,7 +28,7 @@
     <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title>NikiTricky | Home</title>
+    <title>NikiTricky | Project Demo</title>
 
     <link rel="stylesheet" href="/css/main.css">
 
@@ -59,45 +59,27 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="/"><i class="fa-solid fa-house"></i> Home</a>
-                </div>
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="/projects"><i class="fa-solid fa-gears"></i> Projects</a>
-                </div>
+                <ul class="nav navbar-nav">
+                    <li><a class="nav-link active" aria-current="page" href="/"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a class="nav-link active" aria-current="page" href="/projects"><i class="fa-solid fa-gears"></i> Projects</a></li>
+                </ul>
+            </div>
+            <div class="nav navbar-nav ms-auto">
+                <h3><button class="btn" id="themebutton"></button></h3>
             </div>
         </div>
-        <div class="nav navbar-nav ms-auto">
-            <h3><button class="btn" id="themebutton"></button></h3>
         </div>
     </nav>
 
     <div class="container">
-        <h1>NikiTricky's Website</h1>
-        <p>Hello world! Check out my projects, webdev skills and other stuff.</p>
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, delectus id obcaecati assumenda maiores enim nisi laudantium ea perspiciatis natus ab! Temporibus omnis est autem nesciunt tenetur perspiciatis, neque impedit.</p>
 
-        <pre><code class="language-python">@bot.command(name='translate', description="Translate some text to another language", usage="translate <language_from> <language_to> <text>")
-            async def translate(ctx, language_from, language_to, *, text):
-                if language_from not in languages.keys():
-                    await ctx.send(f"Language {language_from} not found")
-                elif language_to not in languages.keys():
-                    await ctx.send(f"Language {language_to} not found")
-                
-                language_from = languages[language_from]
-                language_to = languages[language_to]
-            
-                try:
-                    resp = ut.api.APIRequest("https://translate.googleapis.com/translate_a/single", params={"client": "gtx", "sl": language_from, "tl": language_to, "dt": "t", "q": text})
-                except:
-                    await ctx.send("An error occurred", "An error occurred. Please try again later.")
-                
-                translated_text = ""
-                
-                for sentence in resp[0]:
-                    translated_text += sentence[0]
-                
-                embed = ut.embeds.SendEmbed(ctx, "Translated text", translated_text)
-                await ctx.send(embed=embed)</code></pre>
+        <div class="jumbotron">
+            <h2>Clicker game</h2>
+            <p>You have clicked <span id="count">0</span> times.</p>
+            <button onclick="incrementCounter()" class="btn btn-primary">Click me!</button>
+        </div>
     </div>
 
     <footer class="mt-auto text-muted">
@@ -118,8 +100,9 @@
     </footer>
 
     <script src="/js/darklight-theme.js"></script>
-    <script src="https://kit.fontawesome.com/2266e1cdb8.js" crossorigin="anonymous"></script>
+    <script src="/projects/example/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2266e1cdb8.js" crossorigin="anonymous"></script>
     <script>
         hljs.highlightAll();
     </script>
