@@ -1,0 +1,43 @@
+{
+    "photos": [{
+            "path": "/assets/images/photos/test/0.jpg",
+            "desc": "",
+            "date": "31/07/2021 17:23:50",
+            "shutterspeed": "1/251 s",
+            "iso": 160,
+            "focus": "30mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/test/1.jpg",
+            "desc": "",
+            "date": "31/07/2021 17:31:46",
+            "shutterspeed": "1/807 s",
+            "iso": 160,
+            "focus": "12mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/test/2.jpg",
+            "desc": "",
+            "date": "31/07/2021 17:39:14",
+            "shutterspeed": "1/159 s",
+            "iso": 160,
+            "focus": "13mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/test/3.jpg",
+            "desc": "",
+            "date": "31/07/2021 17:57:11",
+            "shutterspeed": "1/159 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        }
+    ]
+}

@@ -29,10 +29,6 @@ footer a:hover {
     height: 50%;
 }
 
-.card {
-    width: 18em;
-}
-
 @media (max-width: 576px) {
     .card {
         width: 100%;

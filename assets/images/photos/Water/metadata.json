@@ -1,0 +1,43 @@
+{
+    "photos": [{
+            "path": "/assets/images/photos/water/0.jpg",
+            "desc": "",
+            "date": "30/07/2021 16:48:46",
+            "shutterspeed": "1/2004 s",
+            "iso": 80,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/water/1.jpg",
+            "desc": "",
+            "date": "30/07/2021 16:48:51",
+            "shutterspeed": "1/2004 s",
+            "iso": 80,
+            "focus": "30mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/water/2.jpg",
+            "desc": "",
+            "date": "30/07/2021 16:55:29",
+            "shutterspeed": "1/1244 s",
+            "iso": 160,
+            "focus": "30mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/water/3.jpg",
+            "desc": "",
+            "date": "30/07/2021 16:58:43",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "11mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        }
+    ]
+}
