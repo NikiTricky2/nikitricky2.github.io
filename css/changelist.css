@@ -1,0 +1,11 @@
+.icon {
+    float: left;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.list-group-item p {
+    margin: 0;
+}

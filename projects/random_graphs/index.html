@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="title" content="NikiTricky's Website | Projects">
+    <meta name="title" content="NikiTricky's Website | Random Graphs">
     <meta name="description" content="Hello! I'm NikiTricky. I like AI, coding and photography. See my projects and other stuff here.">
-    <meta name="keywords" content="nikitricky, coding, ai, artificial intelligence, machine learning, py, python, nodejs, css, html, js">
+    <meta name="keywords" content="nikitricky, coding, ai, artificial intelligence, machine learning, py, python, nodejs, css, html, js, random">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
@@ -28,10 +28,10 @@
     <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title>NikiTricky | Projects</title>
+    <title>NikiTricky | Random Graphs</title>
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/card-links.css">
+    <link rel="stylesheet" href="/css/changelist.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTVBL6NGZY"></script>
@@ -45,9 +45,6 @@
 
         gtag('config', 'G-VTVBL6NGZY');
     </script>
-
-    <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/styles/default.min.css">-->
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/highlight.min.js"></script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -66,53 +63,38 @@
                     <li><a class="nav-link active" aria-current="page" href="/photos"><i class="fa-solid fa-camera"></i> Photography</a></li>
                 </ul>
             </div>
-            <div class="nav navbar-nav ms-auto">
-                <h3><button class="btn" id="themebutton"></button></h3>
-            </div>
         </div>
+        <div class="nav navbar-nav ms-auto">
+            <h3><button class="btn" id="themebutton"></button></h3>
         </div>
     </nav>
 
     <div class="container">
-        <h1>Projects</h1>
-
-        <div class="row">
-            <div class="card" onclick="document.location = '/projects/random_graphs'">
-                <img src="/projects/random_graphs/images/random_100.png" class="card-img-top" alt="logo">
-                <div class="card-body">
-                    <h5 class="card-title">Random Graphs</h5>
-                    <p class="card-text">How random is the random module?</p>
-                </div>
-            </div>
-        </div>
-
-        <h2>On GitHub</h2>
-
-        <div class="row">
-            <div class="card" onclick="document.location = 'https:\/\/github.com/NikiTricky2/ReactShoppingTemplate'">
-                <img src="/assets/images/project_thumbs/reactshopping.png" class="card-img-top" alt="logo">
-                <div class="card-body">
-                    <h5 class="card-title">React Shopping Template</h5>
-                    <p class="card-text">A React shopping template</p>
-                </div>
-            </div>
-
-            <div class="card" onclick="document.location = 'https:\/\/github.com/NikiTricky2/TranslateApp'">
-                <img src="/assets/images/project_thumbs/translateapp.png" class="card-img-top" alt="logo">
-                <div class="card-body">
-                    <h5 class="card-title">TranslateApp</h5>
-                    <p class="card-text">Tkinter translating app using Google Translate.</p>
-                </div>
-            </div>
-
-            <div class="card" onclick="document.location = 'https:\/\/github.com/NikiTricky2/MenuPlanner'">
-                <img src="/assets/images/project_thumbs/menuplanner.png" class="card-img-top" alt="logo">
-                <div class="card-body">
-                    <h5 class="card-title">MenuPlanner</h5>
-                    <p class="card-text">A small online application, to make menus</p>
-                </div>
-            </div>
-        </div>
+        <h1>Random Graphs</h1>
+        <p>Just how random is the random module? Well, really not that much. Actually, nothing is truly random, so we call them pseudorandom things. I wanted to see how "random" is the random module, so i put it up to the test.</p>
+        <p>In random you can set a seed. With the seed you can generate consistent random numbers.</p>
+        <pre><code class="language-python">import random
+random.seed(42)
+print(random.random()) # Always prints 0.6394267984578837</code></pre>
+        <p>You can chain theese functions by generating random numbers and setting them as a seed. So, i made a program that does exactly that and saves it in a graph. Since if you generate floats it's insanely hard to repeat i generated numbers from 1 to
+            100.
+        </p>
+        <img src="/projects/random_graphs/images/random_100.png" alt="Random chains to 100" class="img-fluid">
+        <p>It looks like there are multiple graphs all connecting to loops. It is not obvious for some of them, but you can follow the arrows.</p>
+        <p>You probably have noticed the lone 14 in the middle. That means that if you se the seed to 14 and generated a random number from 1 to 100 it will generate 14!</p>
+        <pre><code class="language-python">import random
+random.seed(14)
+while random.randint(1, 100) == 14: # Loops indefinitely
+    random.seed(14)
+    print("Still 14")</code></pre>
+        <p>I generated graphs for 1k, 10k and 100k (For the life of me i can't generate the 1m). You can view theese graphs in <a href="https://graphia.app/">Graphia</a> and download them here.</p>
+        <ul>
+            <li><a href="/projects/random_graphs/files/random_100.dot" download>100</a></li>
+            <li><a href="/projects/random_graphs/files/random_1k.dot" download>1k</a></li>
+            <li><a href="/projects/random_graphs/files/random_10k.dot" download>10k</a></li>
+            <li><a href="/projects/random_graphs/files/random_100k.dot" download>100k</a></li>
+            <li><a href="/projects/random_graphs/files/random_1m.dot" download>1m</a></li>
+        </ul>
     </div>
 
     <footer class="mt-auto text-muted">

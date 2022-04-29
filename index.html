@@ -31,6 +31,7 @@
     <title>NikiTricky | Home</title>
 
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/changelist.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTVBL6NGZY"></script>
@@ -72,28 +73,20 @@
         <h1>NikiTricky's Website</h1>
         <p>Hello world! Check out my projects, webdev skills and other stuff.</p>
 
-        <pre><code class="language-python">@bot.command(name='translate', description="Translate some text to another language", usage="translate <language_from> <language_to> <text>")
-            async def translate(ctx, language_from, language_to, *, text):
-                if language_from not in languages.keys():
-                    await ctx.send(f"Language {language_from} not found")
-                elif language_to not in languages.keys():
-                    await ctx.send(f"Language {language_to} not found")
-                
-                language_from = languages[language_from]
-                language_to = languages[language_to]
-            
-                try:
-                    resp = ut.api.APIRequest("https://translate.googleapis.com/translate_a/single", params={"client": "gtx", "sl": language_from, "tl": language_to, "dt": "t", "q": text})
-                except:
-                    await ctx.send("An error occurred", "An error occurred. Please try again later.")
-                
-                translated_text = ""
-                
-                for sentence in resp[0]:
-                    translated_text += sentence[0]
-                
-                embed = ut.embeds.SendEmbed(ctx, "Translated text", translated_text)
-                await ctx.send(embed=embed)</code></pre>
+        <h2>Recent additions</h2>
+
+        <div class="list-group">
+            <a href="/projects/random_graphs/" class="list-group-item list-group-item-action">
+                <img src="/projects/random_graphs/images/random_100.png" class="icon">
+                <p>Published Random Graphs<br>
+                    <span class="text-muted">29 Apr 2022</span></p>
+            </a>
+            <a href="/photos/album.html?album=Plovdiv 2022" class="list-group-item list-group-item-action">
+                <img src="/assets/images/photos/Plovdiv 2022/0.jpg" class="icon">
+                <p>Added Plovdiv 2022 photo album<br>
+                    <span class="text-muted">13 Apr 2022</span></p>
+            </a>
+        </div>
     </div>
 
     <footer class="mt-auto text-muted">

@@ -1,0 +1,693 @@
+{
+    "photos": [{
+            "path": "/assets/images/photos/Plovdiv 2022/0.jpg",
+            "desc": "",
+            "date": "05/04/2022 19:48:49",
+            "shutterspeed": "1/30 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/1.jpg",
+            "desc": "",
+            "date": "05/04/2022 19:58:25",
+            "shutterspeed": "1/101 s",
+            "iso": 400,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/2.jpg",
+            "desc": "",
+            "date": "05/04/2022 19:58:33",
+            "shutterspeed": "1/30 s",
+            "iso": 100,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/3.jpg",
+            "desc": "",
+            "date": "05/04/2022 20:03:13",
+            "shutterspeed": "1/30 s",
+            "iso": 640,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/4.jpg",
+            "desc": "",
+            "date": "05/04/2022 20:04:30",
+            "shutterspeed": "1/60 s",
+            "iso": 640,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/5.jpg",
+            "desc": "There are cats everywhere!",
+            "date": "05/04/2022 20:10:20",
+            "shutterspeed": "1/20 s",
+            "iso": 1000,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/6.jpg",
+            "desc": "",
+            "date": "06/04/2022 10:04:04",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/7.jpg",
+            "desc": "",
+            "date": "06/04/2022 10:05:42",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/8.jpg",
+            "desc": "I found the pasted images on the windows of the turkish cafe funny.",
+            "date": "06/04/2022 10:14:23",
+            "shutterspeed": "1/1002 s",
+            "iso": 250,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/9.jpg",
+            "desc": "",
+            "date": "06/04/2022 10:21:43",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/10.jpg",
+            "desc": "",
+            "date": "06/04/2022 10:22:49",
+            "shutterspeed": "1/636 s",
+            "iso": 100,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/11.jpg",
+            "desc": "This is the most amount of electric scooters next to each other i've seen in my life.",
+            "date": "06/04/2022 10:27:16",
+            "shutterspeed": "1/2004 s",
+            "iso": 80,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/12.jpg",
+            "desc": "A random yellow house.",
+            "date": "06/04/2022 10:34:36",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/13.jpg",
+            "desc": "",
+            "date": "07/04/2022 12:39:56",
+            "shutterspeed": "1/1614 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/14.jpg",
+            "desc": "",
+            "date": "07/04/2022 12:41:44",
+            "shutterspeed": "1/2004 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/15.jpg",
+            "desc": "",
+            "date": "07/04/2022 12:43:54",
+            "shutterspeed": "1/318 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/16.jpg",
+            "desc": "",
+            "date": "07/04/2022 13:52:02",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/17.jpg",
+            "desc": "",
+            "date": "07/04/2022 13:53:29",
+            "shutterspeed": "1/1002 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/18.jpg",
+            "desc": "",
+            "date": "07/04/2022 13:56:32",
+            "shutterspeed": "1/807 s",
+            "iso": 160,
+            "focus": "19mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/19.jpg",
+            "desc": "",
+            "date": "07/04/2022 13:57:44",
+            "shutterspeed": "1/807 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/20.jpg",
+            "desc": "",
+            "date": "07/04/2022 14:01:46",
+            "shutterspeed": "1/1244 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/21.jpg",
+            "desc": "A very pretty flower lane in the park.",
+            "date": "07/04/2022 14:08:27",
+            "shutterspeed": "1/1002 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/22.jpg",
+            "desc": "",
+            "date": "07/04/2022 14:37:55",
+            "shutterspeed": "1/636 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/23.jpg",
+            "desc": "My first try of Bubble tea. It's great.",
+            "date": "07/04/2022 16:35:41",
+            "shutterspeed": "1/40 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/24.jpg",
+            "desc": "",
+            "date": "09/04/2022 11:14:12",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/25.jpg",
+            "desc": "Some crooked directions i saw to the old city.",
+            "date": "09/04/2022 11:23:34",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/26.jpg",
+            "desc": "",
+            "date": "09/04/2022 11:43:22",
+            "shutterspeed": "1/2004 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/27.jpg",
+            "desc": "",
+            "date": "09/04/2022 11:44:19",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/28.jpg",
+            "desc": "",
+            "date": "09/04/2022 11:44:40",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/29.jpg",
+            "desc": "",
+            "date": "09/04/2022 11:51:35",
+            "shutterspeed": "1/30 s",
+            "iso": 500,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/30.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:00:43",
+            "shutterspeed": "1/60 s",
+            "iso": 800,
+            "focus": "7mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/31.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:01:17",
+            "shutterspeed": "1/30 s",
+            "iso": 160,
+            "focus": "7mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/32.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:01:21",
+            "shutterspeed": "1/60 s",
+            "iso": 400,
+            "focus": "7mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/33.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:02:30",
+            "shutterspeed": "1/60 s",
+            "iso": 640,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/34.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:03:35",
+            "shutterspeed": "1/101 s",
+            "iso": 400,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/35.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:03:39",
+            "shutterspeed": "1/60 s",
+            "iso": 400,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/36.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:03:42",
+            "shutterspeed": "1/101 s",
+            "iso": 400,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/37.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:03:58",
+            "shutterspeed": "1/60 s",
+            "iso": 500,
+            "focus": "14mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/38.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:17:06",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/39.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:17:10",
+            "shutterspeed": "1/1614 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/40.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:17:39",
+            "shutterspeed": "1/2004 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/41.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:18:33",
+            "shutterspeed": "1/2004 s",
+            "iso": 100,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/42.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:18:53",
+            "shutterspeed": "1/318 s",
+            "iso": 80,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/43.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:19:45",
+            "shutterspeed": "1/2004 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/44.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:21:04",
+            "shutterspeed": "1/636 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/45.jpg",
+            "desc": "A lil happy pupper",
+            "date": "09/04/2022 12:22:03",
+            "shutterspeed": "1/1244 s",
+            "iso": 125,
+            "focus": "30mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/46.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:31:54",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/47.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:32:56",
+            "shutterspeed": "1/2004 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/48.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:33:09",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/49.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:35:03",
+            "shutterspeed": "1/1244 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/50.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:35:40",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/51.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:41:55",
+            "shutterspeed": "1/2004 s",
+            "iso": 80,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/52.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:42:41",
+            "shutterspeed": "1/2004 s",
+            "iso": 100,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/53.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:42:53",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "15mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/54.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:43:48",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/55.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:44:30",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/56.jpg",
+            "desc": "",
+            "date": "09/04/2022 12:58:34",
+            "shutterspeed": "1/2004 s",
+            "iso": 125,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/57.jpg",
+            "desc": "A small scale model of the old Plovdiv",
+            "date": "09/04/2022 13:21:04",
+            "shutterspeed": "1/30 s",
+            "iso": 500,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/58.jpg",
+            "desc": "",
+            "date": "09/04/2022 13:29:27",
+            "shutterspeed": "1/20 s",
+            "iso": 800,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/59.jpg",
+            "desc": "",
+            "date": "09/04/2022 13:29:41",
+            "shutterspeed": "1/30 s",
+            "iso": 500,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/60.jpg",
+            "desc": "",
+            "date": "09/04/2022 13:40:45",
+            "shutterspeed": "1/30 s",
+            "iso": 500,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/61.jpg",
+            "desc": "",
+            "date": "09/04/2022 13:41:05",
+            "shutterspeed": "1/30 s",
+            "iso": 800,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/62.jpg",
+            "desc": "",
+            "date": "09/04/2022 13:41:09",
+            "shutterspeed": "1/50 s",
+            "iso": 800,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/63.jpg",
+            "desc": "",
+            "date": "09/04/2022 13:41:22",
+            "shutterspeed": "1/40 s",
+            "iso": 800,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/64.jpg",
+            "desc": "",
+            "date": "09/04/2022 13:41:49",
+            "shutterspeed": "1/60 s",
+            "iso": 800,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/65.jpg",
+            "desc": "",
+            "date": "09/04/2022 13:43:56",
+            "shutterspeed": "1/20 s",
+            "iso": 1600,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/66.jpg",
+            "desc": "Lots of medicine in an old pharmacy",
+            "date": "09/04/2022 14:02:15",
+            "shutterspeed": "1/30 s",
+            "iso": 200,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/67.jpg",
+            "desc": "Lots of medicine in an old pharmacy",
+            "date": "09/04/2022 14:02:17",
+            "shutterspeed": "1/30 s",
+            "iso": 250,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Plovdiv 2022/68.jpg",
+            "desc": "",
+            "date": "09/04/2022 14:03:00",
+            "shutterspeed": "1/30 s",
+            "iso": 800,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        }
+    ]
+}

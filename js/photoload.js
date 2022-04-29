@@ -1,4 +1,4 @@
-var albumname = document.location.search.split("=")[1]
+var albumname = decodeURI(document.location.search.split("=")[1])
 
 function showmodal(id) {
     $("#" + id).modal('toggle')
