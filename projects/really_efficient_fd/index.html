@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="title" content="NikiTricky's Website | Home">
+    <meta name="title" content="NikiTricky's Website | Really efficient face detection">
     <meta name="description" content="Hello! I'm NikiTricky. I like AI, coding and photography. See my projects and other stuff here.">
     <meta name="keywords" content="nikitricky, coding, ai, artificial intelligence, machine learning, py, python, nodejs, css, html, js">
     <meta name="robots" content="index, follow">
@@ -28,7 +28,7 @@
     <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title>NikiTricky | Home</title>
+    <title>NikiTricky | Really efficient face detection</title>
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/changelist.css">
@@ -70,38 +70,18 @@
     </nav>
 
     <div class="container">
-        <h1>NikiTricky's Website</h1>
-        <p>Hello world! Check out my projects, webdev skills and other stuff.</p>
-
-        <h2>Recent additions</h2>
-
-        <div class="list-group">
-            <a href="/projects/really_efficient_fd" class="list-group-item list-group-item-action">
-                <img src="/projects/really_efficient_fd/images/vals.png" class="icon">
-                <p>Published Really efficient face detection<br>
-                    <span class="text-muted">3 May 2022</span></p>
-            </a>
-            <a href="/photos/album.html?album=Close-up compilation" class="list-group-item list-group-item-action">
-                <img src="/assets/images/photos/Close-up compilation/0.jpg" class="icon">
-                <p>Added Close-up compilation photo album<br>
-                    <span class="text-muted">3 May 2022</span></p>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <img src="/assets/images/logo.jpg" class="icon">
-                <p>Released website!<br>
-                    <span class="text-muted">2 May 2022</span></p>
-            </a>
-            <a href="/projects/random_graphs/" class="list-group-item list-group-item-action">
-                <img src="/projects/random_graphs/images/random_100.png" class="icon">
-                <p>Published Random Graphs<br>
-                    <span class="text-muted">29 Apr 2022</span></p>
-            </a>
-            <a href="/photos/album.html?album=Plovdiv 2022" class="list-group-item list-group-item-action">
-                <img src="/assets/images/photos/Plovdiv 2022/0.jpg" class="icon">
-                <p>Added Plovdiv 2022 photo album<br>
-                    <span class="text-muted">13 Apr 2022</span></p>
-            </a>
-        </div>
+        <h1>Really efficient face detection</h1>
+        <p>Do you remember when OpenAI published "Multimodal Neurons in Artificial Neural Networks"? If you don't know what this is, it's basically the "essence" of prompts for CLIP (Image identifier neural network).</p>
+        <img src="https://cdn.openai.com/multimodal-neurons/assets/neurons-overview/time-summer-nature.png" alt="">
+        <p class="text-muted">CLIP's rendition of Summer Nature</p>
+        <p>That got me thinking. What would be the easiest way to recreate this? Well, i created a neural network with only an input and output layer. Then i used the <a href="https://www.kaggle.com/datasets/greatgamedota/ffhq-face-data-set">FFHQ Dataset</a>,
+            <a href="https://www.kaggle.com/datasets/prasunroy/natural-images">Natural images Dataset</a> and <a href="https://www.kaggle.com/datasets/swaroopkml/cifar10-pngs-in-folders">CIFAR 10</a> in black and white 128x128. After 10000 epochs i got
+            this:
+        </p>
+        <img src="/projects/really_efficient_fd/images/vals.png" alt="">
+        <p>Pretty cool, right? So actually, since they are actually weights, you can multiply any image by this one, pass it though a sigmoid function and you will get a result from 0-1! This is so easy that i made <a href="https://editor.p5js.org/NikiTricky2/sketches/357j94Axr">a p5js sketch with face identification</a>.</p>
+        <p>Probably i will try this on other datasets. If you download the weights, you can download them here</p>
+        <a href="/projects/really_efficient_fd/files/weights.txt" class="btn btn-primary" download>Download</a>
     </div>
 
     <footer class="mt-auto text-muted">

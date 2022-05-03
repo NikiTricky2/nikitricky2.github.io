@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>http://nikitricky.ml/</loc>
+  <lastmod>2022-05-03T05:15:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://nikitricky.ml/projects/</loc>
+  <lastmod>2022-05-03T05:15:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nikitricky.ml/photos/</loc>
+  <lastmod>2022-05-03T05:15:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nikitricky.ml/photos/album.html?album=Close-up%20compilation</loc>
+  <lastmod>2022-05-03T05:15:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nikitricky.ml/photos/album.html?album=Plovdiv%202022</loc>
+  <lastmod>2022-05-03T05:15:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nikitricky.ml/projects/random_graphs/</loc>
+  <lastmod>2022-05-03T05:15:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nikitricky.ml/projects/really_efficient_fd/</loc>
+  <lastmod>2022-05-03T05:15:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+</urlset>
