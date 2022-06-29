@@ -1,0 +1,283 @@
+{
+    "photos": [{
+            "path": "/assets/images/photos/Vratsa 2022/0.jpg",
+            "desc": "A group of dancers dancing traditional bulgarian dances (horo)",
+            "date": "25/06/2022 22:39:30",
+            "shutterspeed": "1/125 s",
+            "iso": 160,
+            "focus": "25mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/1.jpg",
+            "desc": "",
+            "date": "25/06/2022 22:47:46",
+            "shutterspeed": "1/125 s",
+            "iso": 320,
+            "focus": "30mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/2.jpg",
+            "desc": "",
+            "date": "25/06/2022 22:53:13",
+            "shutterspeed": "1/101 s",
+            "iso": 160,
+            "focus": "22mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/3.jpg",
+            "desc": "The dancing schools' directors holding their diplomas.",
+            "date": "25/06/2022 23:10:19",
+            "shutterspeed": "1/40 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/4.jpg",
+            "desc": "All the dancers standing for photos.",
+            "date": "25/06/2022 23:10:51",
+            "shutterspeed": "1/30 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/5.jpg",
+            "desc": "",
+            "date": "25/06/2022 23:15:26",
+            "shutterspeed": "1/159 s",
+            "iso": 400,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/6.jpg",
+            "desc": "",
+            "date": "25/06/2022 23:18:20",
+            "shutterspeed": "1/202 s",
+            "iso": 400,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/7.jpg",
+            "desc": "",
+            "date": "25/06/2022 23:19:21",
+            "shutterspeed": "1/125 s",
+            "iso": 400,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/8.jpg",
+            "desc": "",
+            "date": "25/06/2022 23:26:17",
+            "shutterspeed": "1/79 s",
+            "iso": 800,
+            "focus": "17mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/9.jpg",
+            "desc": "",
+            "date": "26/06/2022 08:14:00",
+            "shutterspeed": "1/2004 s",
+            "iso": 100,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/10.jpg",
+            "desc": "A big statue of Hristo Botev.",
+            "date": "26/06/2022 08:15:26",
+            "shutterspeed": "1/1002 s",
+            "iso": 160,
+            "focus": "8mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/11.jpg",
+            "desc": "",
+            "date": "26/06/2022 08:16:14",
+            "shutterspeed": "1/1244 s",
+            "iso": 160,
+            "focus": "11mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/12.jpg",
+            "desc": "",
+            "date": "26/06/2022 08:22:02",
+            "shutterspeed": "1/1614 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/13.jpg",
+            "desc": "",
+            "date": "26/06/2022 08:26:11",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/14.jpg",
+            "desc": "",
+            "date": "26/06/2022 10:04:32",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/15.jpg",
+            "desc": "",
+            "date": "26/06/2022 10:09:12",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "30mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/16.jpg",
+            "desc": "",
+            "date": "26/06/2022 10:15:45",
+            "shutterspeed": "1/2004 s",
+            "iso": 100,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/17.jpg",
+            "desc": "",
+            "date": "26/06/2022 12:36:56",
+            "shutterspeed": "1/1002 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/18.jpg",
+            "desc": "",
+            "date": "26/06/2022 12:38:11",
+            "shutterspeed": "1/1244 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/19.jpg",
+            "desc": "",
+            "date": "26/06/2022 12:48:28",
+            "shutterspeed": "1/2004 s",
+            "iso": 80,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/20.jpg",
+            "desc": "",
+            "date": "26/06/2022 13:06:18",
+            "shutterspeed": "1/1244 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f2",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/21.jpg",
+            "desc": "",
+            "date": "26/06/2022 16:17:22",
+            "shutterspeed": "1/2004 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/22.jpg",
+            "desc": "",
+            "date": "26/06/2022 16:53:28",
+            "shutterspeed": "1/1244 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/23.jpg",
+            "desc": "",
+            "date": "27/06/2022 16:08:19",
+            "shutterspeed": "1/1614 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/24.jpg",
+            "desc": "A monument commemorating Hristo Botev.",
+            "date": "27/06/2022 16:11:24",
+            "shutterspeed": "1/2004 s",
+            "iso": 100,
+            "focus": "7mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/25.jpg",
+            "desc": "",
+            "date": "27/06/2022 16:14:57",
+            "shutterspeed": "1/2004 s",
+            "iso": 80,
+            "focus": "6mm",
+            "aperture": "f4",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/26.jpg",
+            "desc": "",
+            "date": "27/06/2022 17:00:05",
+            "shutterspeed": "1/2004 s",
+            "iso": 100,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        },
+        {
+            "path": "/assets/images/photos/Vratsa 2022/27.jpg",
+            "desc": "The death place of Hristo Botev.",
+            "date": "27/06/2022 17:35:49",
+            "shutterspeed": "1/50 s",
+            "iso": 160,
+            "focus": "6mm",
+            "aperture": "f3",
+            "camera": "Canon PowerShot G15"
+        }
+    ]
+}
