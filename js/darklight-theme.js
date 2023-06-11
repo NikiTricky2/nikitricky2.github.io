@@ -7,12 +7,14 @@ const cookieValue = document.cookie
     .find(row => row.startsWith('theme='))
     .split('=')[1];
 
+const a = document.querySelector("#theme-style-container");
+
 if (cookieValue == 'dark') {
-    document.head.innerHTML += '<link rel="stylesheet" href="/css/bootstrap_dark.min.css">\n<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atom-one-dark.min.css">';
+    a.innerHTML = '<link rel="stylesheet" href="/css/bootstrap_dark.min.css">\n<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atom-one-dark.min.css">';
     document.getElementById("themebutton").innerHTML = "<i class='fa-solid fa-sun'></i>"
     document.getElementById("themebutton").addEventListener("click", setThemeLight);
 } else if (cookieValue == 'light') {
-    document.head.innerHTML += '<link rel="stylesheet" href="/css/bootstrap_light.min.css">\n<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atom-one-light.min.css">';
+    a.innerHTML = '<link rel="stylesheet" href="/css/bootstrap_light.min.css">\n<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atom-one-light.min.css">';
     document.getElementById("themebutton").innerHTML = "<i class='fa-solid fa-moon'></i>"
     document.getElementById("themebutton").addEventListener("click", setThemeDark);
 }
