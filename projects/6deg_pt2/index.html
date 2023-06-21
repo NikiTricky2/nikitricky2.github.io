@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="title" content="NikiTricky's Website | 6 Degrees of separation">
+    <meta name="description" content="Hello! I'm NikiTricky. I like AI, coding and photography. See my projects and other stuff here.">
+    <meta name="keywords" content="nikitricky, coding, ai, artificial intelligence, machine learning, py, python, nodejs, css, html, js, random">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="30 days">
+    <meta name="author" content="NikiTricky">
+    <meta name="theme-color" content="#62774f">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#62774f">
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="NikiTricky's Website">
+    <meta name="application-name" content="NikiTricky's Website">
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nikitricky2.github.io/projects/6deg/">
+    <meta property="og:title" content="NikiTricky's Website | 6 Degrees of separation">
+    <meta property="og:description" content="Hello! I'm NikiTricky. I like AI, coding and photography. See my projects and other stuff here.">
+    <meta property="og:image" content="/assets/images/logo.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:url" content="https://nikitricky2.github.io/projects/6deg/">
+    <meta property="twitter:title" content="NikiTricky's Website | 6 Degrees of separation">
+    <meta property="twitter:description" content="Hello! I'm NikiTricky. I like AI, coding and photography. See my projects and other stuff here.">
+    <meta property="twitter:image" content="/assets/images/logo.jpg">
+
+    <title>NikiTricky's Website | 6 Degrees of separation</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/changelist.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTVBL6NGZY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VTVBL6NGZY');
+    </script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div id="theme-style-container"><link rel="stylesheet" href="/css/bootstrap_dark.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atom-one-dark.min.css"></div>
+    <script src="/js/darklight-theme.js"></script>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="/assets/images/logo.jpg" width="30" height="30" class="d-inline-block align-top rounded" alt="logo"> NikiTricky
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a class="nav-link active" aria-current="page" href="/"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a class="nav-link active" aria-current="page" href="/projects"><i class="fa-solid fa-gears"></i> Projects</a></li>
+                    <li><a class="nav-link active" aria-current="page" href="/photos"><i class="fa-solid fa-camera"></i> Photography</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav navbar-nav ms-auto">
+            <h3><button class="btn" id="themebutton"></button></h3>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>6 Degrees of separation Part 2</h1>
+        <p>I recently revisited my project (<a href="/projects/6deg/">read 6 Degrees of separation Part 1</a>) and discovered Gephi, a network analysis software designed for large graphs. After spending a few hours, I created these two visualizations (click on each to go to the SVG):</p>
+        <a href="/projects/6deg_pt2/images/github.svg"><img src="/projects/6deg_pt2/images/github.png" alt="Github follower graph" class="img-fluid"></a>
+        <a href="/projects/6deg_pt2/images/scratch.svg"><img src="/projects/6deg_pt2/images/scratch.png" alt="Scratch follower graph" class="img-fluid"></a>
+        <h2>Wikipedia</h2>
+        <p>Wikipedia can be represented as a graph, where each page is connected to other pages, forming a complex network. By recursively scraping Wikipedia, starting from the "Wikipedia" page, I obtained an enormous graph with 1.3 million nodes and 10.4 million edges. Here is the visualization I managed to generate:</p>
+        <img src="/projects/6deg_pt2/images/wikipedia.png" alt="Wikipedia page graph" class="img-fluid">
+        <p>In the middle of the graph, you may notice a white square. My working theory is that the optimization algorithm, responsible for arranging the nodes to improve graph readability, is unable to handle those specific nodes and edges, resulting in their immobility.</p>
+    </div>
+
+    <footer class="mt-auto text-muted">
+        <div class="container">
+            <div class="row justify-content-center">
+                <ul class="icon-list">
+                    <li><a href="https://github.com/NikiTricky2"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.kaggle.com/nikitricky"><i class="fa-brands fa-kaggle"></i></a></li>
+                    <li><a href="https://nikilabs.itch.io/"><i class="fa-brands fa-itch-io"></i></a></li>
+                    <li><a href="https://open.spotify.com/user/8gwi3az341tajx6uylt6ff5v2?si=a92RZXzxQPm9bIQw0LZi3g"><i class="fa-brands fa-spotify"></i></a></li>
+                    <li><a href="mailto:nikitricky@mail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <div class="row justify-content-center">
+                <p>&copy; NikiTricky 2022</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2266e1cdb8.js" crossorigin="anonymous"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
